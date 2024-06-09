@@ -14,3 +14,9 @@ This design pattern uses:
 - The constructor is private so clients cannot access to create any new instance
 - A public static member function - getInstance() - creates an instance if none exists
 else just passes the instance held by X
+
+### 4. CPP Specific Implementation details:
+THINGS TO KEEP IN MIND IN C++ IMPLEMENTATION 
+1.  The method getInstance() has to return a reference (singleton&) : Else copy constructor will be invoked
+2. The identifier in the MAIN function (a,b) has to be a reference (Singleton &) and not object identifier (Singleton) : Else operator= will be invoked
+3. For safety, delete the copy constructor and assignment operator in the header file

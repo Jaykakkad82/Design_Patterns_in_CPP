@@ -6,6 +6,7 @@ So, when a constructor of the class is called, a new instance is created only if
 
 ### 2. Class diagram
 ![img.png](img.png)
+source - PPT of CS478 by Prof. Ugo Buy
 
 ### 3. Explanation
 This design pattern uses:

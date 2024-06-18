@@ -11,9 +11,10 @@ class carDecorator: public car{
 protected:
     car * a_car;
 public:
-    carDecorator(car*);
-    virtual void callSelect();
+    explicit carDecorator(car*);
+    void callSelect();
     virtual void select() = 0;
+    virtual ~carDecorator() = default;
 };
 
 

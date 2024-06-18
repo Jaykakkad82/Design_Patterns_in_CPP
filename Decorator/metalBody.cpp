@@ -9,7 +9,7 @@ metalBody::metalBody(car *acar, float weight, float volume): carDecorator(acar),
 }
 
 void metalBody::select() {
-    (dynamic_cast<carDecorator*>(a_car))->callSelect() ;
+    callSelect() ;
     std::cout<< " has metalbody of weight "<< w << " kg and volume of " << v << " sq.meter ";
 }
 

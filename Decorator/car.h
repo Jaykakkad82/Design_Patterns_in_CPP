@@ -10,6 +10,7 @@ class car {
 public:
 
     virtual void select()=0;
+    virtual ~car() = default;
 };
 
 

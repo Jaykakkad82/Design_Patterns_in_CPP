@@ -12,7 +12,7 @@ engine_enlarger::engine_enlarger(car *acar, float power): carDecorator(acar), cc
 
 
 void engine_enlarger::select() {
-    (dynamic_cast<carDecorator*>(a_car))->callSelect() ;
+    callSelect() ;
     std::cout<< " has Engine Enlarger of power "<< cc << " CC ";
 
 }

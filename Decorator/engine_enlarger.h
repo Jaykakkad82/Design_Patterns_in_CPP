@@ -14,7 +14,7 @@ class engine_enlarger: public carDecorator{
 
 public:
     engine_enlarger(car * acar , float power);
-    void select();
+    void select() override;
 
 };
 

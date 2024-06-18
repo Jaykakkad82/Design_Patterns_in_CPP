@@ -13,7 +13,7 @@ protected:
     float v{0};
 public:
 metalBody(car * acar , float weight, float volume);
-void select();
+void select() override;
 };
 
 

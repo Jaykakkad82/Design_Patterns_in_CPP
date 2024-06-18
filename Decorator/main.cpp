@@ -19,6 +19,10 @@ int main(){
     std::cout << std::endl;
     std::cout << "my car is ready !!! "<< std::endl;
 
+    delete mycar2;
+    delete mycar1;
+    delete mycar;
+
 
 
 }

@@ -13,7 +13,7 @@ protected:
 public:
     explicit carDecorator(car*);
     void callSelect();
-    virtual void select() = 0;
+    virtual void select() =0;
     virtual ~carDecorator() = default;
 };
 
